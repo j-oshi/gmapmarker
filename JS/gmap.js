@@ -1,5 +1,5 @@
 const options = {
-    mapKey: 'AIzaSyAv_L4utOkpFLav6mE4N3qH0zkVBdXz_rY',
+    mapKey: '',
     mapContainerTag: '#map',
     styleSheetLink: 'css/gmap-with-interactive-marker.css',
 };
@@ -81,4 +81,5 @@ function initMap() {
         map: map,
         icon: image,
     });
+
 }
