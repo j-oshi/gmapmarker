@@ -1,5 +1,5 @@
 const options = {
-    mapKey: config.MY_KEY,
+    mapKey: config.MY_KEYs,
     mapContainerTag: '#map',
     styleSheetLink: 'css/gmap-with-interactive-marker.css',
 };
