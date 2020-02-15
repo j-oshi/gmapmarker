@@ -1,0 +1,48 @@
+.marker {
+    width: 80px;
+    margin: 0 auto 10px;
+    border: 4px solid #00bfb6;
+    text-align: center;
+    font-weight: 900;
+    font-family: arial;
+    position: relative;
+  }
+  
+  .marker:before {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    right: calc(50% - 10px);
+    bottom: -23px;
+  }
+  
+  /*.marker:after {
+    content: "";
+    width: 0px;
+    height: 0px;
+    position: absolute;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 10px solid #fff;
+    border-bottom: 10px solid transparent;
+    right: calc(50% - 10px);
+    bottom: -19px;
+  }*/
+  
+  .marker-image {
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover; 
+  }
+  
+  .full-marker {
+    width: 250px;
+  }
+  
+  .full-image-marker {
+    height: 150px! important;
+  }
