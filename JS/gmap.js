@@ -1,5 +1,5 @@
 const options = {
-    mapKey: '',
+    mapKey: config.MY_KEY,
     mapContainerTag: '#map',
     styleSheetLink: 'css/gmap-with-interactive-marker.css',
 };
@@ -38,6 +38,7 @@ function loadScript() {
 }
 
 function loadStyleSheet() {
+    // console.log(process.env);
     // Check if map tag exist
     if (document.querySelectorAll(this.mapContainerTag).length > 0) {
         // Check is stylesheet is already loaded
@@ -82,4 +83,5 @@ function initMap() {
         icon: image,
     });
 
+  
 }
